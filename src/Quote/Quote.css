@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(45deg,rgb(248, 224, 255),rgb(206, 179, 255));
+    background-size: cover;
+    font-family: comfortaa;
+    background-repeat: no-repeat;
+    width: 100%;
+    cursor: pointer;
+    height: 100vh;    
+}
+h1{
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    margin-top: 2%;
+    background-image:linear-gradient(45deg, rgb(9, 9, 10),rgb(183, 28, 255));
+    color: white;
+    font-weight: bold;
+    
+}
+button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1%;
+    color: aliceblue;
+    border-radius: 50px;
+    padding: 2%;
+    background-image:linear-gradient(45deg, rgb(179, 214, 255),rgb(200, 81, 255));
+    animation: shimmer 4s linear infinite;
+    background-size: 800%;
+    background-image: linear-gradient(to right, #fb00ff 0%,#ea00ff 10%, #cf33ff 20%,#b812ff 30%, #a600ff 40%, #00c3ff 50%, #00ffff 60%,#b812ff 70%, #a600ff  80%, #ea00ff  90%, #fb00ff 100%);
+}
+button:hover{
+    box-shadow: 1px 10px 90px rgb(255, 255, 255);
+}
+.data{
+    animation:fade-in-bottom 5s linear delay infinite forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+    border-radius: 50PX;
+    margin: 2%;
+    border: 1px solid #ea00ff;
+    box-shadow: 1px 10px 90px rgb(255, 255, 255);
+}
+.data>p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    padding: 5%;
+
+    text-shadow:3px 3px 5px rgb(92, 92, 92);
+    font-weight: bold;
+}
+
+
+.data {
+    animation: shimmer 5s linear infinite;
+    background-size: 800%;
+    background-image: linear-gradient(to right, #feadff 0%,#f8adff 10%, #f8c0ff 20%,#fca4ff 30%, #f9ccfe 40%, #bff0ff 50%, #c7f9f9 60%,#baf2ff 70%, #ffd8fe 80%, #fea2ff 90%, #fcb0ff 100%);
+}
+    @keyframes shimmer {
+      0%{
+        
+        background-position: 100%;
+      }
+      100%{
+        
+        background-position: 0%;
+      }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        /* Styles for screens up to 767px width */
+        
+        .data{
+            margin-top: 10%;
+        }
+        button{
+            position: absolute;
+            top: 80%;
+            left: 20%;
+        }
+    }

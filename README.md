@@ -1,4 +1,5 @@
-# Randome Quoate Generator Using Api key
+# Randome Quoate Generator Using Api Ky
+This is Fronted Page
 <img src="public/QuoteImg.png" alt="img" />
 
 # Getting Started with Create React App

@@ -1,5 +1,5 @@
 # Randome Quoate Generator Using Api Ky
-This is Fronted Pages
+This is Front Pages
 <br/>
 <hr/>
 <img src="public/QuoteImg.png" alt="img" />

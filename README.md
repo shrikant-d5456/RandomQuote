@@ -1,5 +1,6 @@
 # Randome Quoate Generator Using Api key
 <img src="public/QuoteImg.png" alt="img" />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
